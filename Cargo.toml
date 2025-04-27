@@ -1,0 +1,23 @@
+[package]
+name = "zeuge"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sha3 = "0.11.0-pre.5"
+sha2 = "0.11.0-pre.5"
+hex = "0.4.3"
+serde = { version = "1.0.219", features = ["derive"] }
+regex = "1.11.1"
+serde_json = "1.0.140"
+chrono = { version = "0.4.40", features = ["serde"] }
+uuid = { version = "1.16.0", features = ["v4"] }
+cassandra-cpp = "3.0.2"
+tokio = { version = "1.44.2", features = ["full"] }
+pqcrypto-dilithium = "0.5.0"
+pqcrypto-traits = "0.3.5"
+matrix-sdk = "0.11.0"
+secrecy = { version = "0.10.3" }
+orion = "0.17"
+base64 = "0.22.1"
+cdrs-tokio = { version = "3.0.0" }
